@@ -1,0 +1,71 @@
+body {
+  background-image: url(assets/k08-bg-checked.gif);
+  color: black;
+  font-family: Verdana;
+}
+
+header {
+  background-image: url(assets/k08-bg-simple.gif);
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+}
+
+ul {
+  list-style-type: none;
+  width: 1300px;
+  margin-left: -4%;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  width: 175px;
+}
+
+ul li a {
+  display: block;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: white;
+}
+
+ul li a:hover {
+  background-color: #c287aea4;
+}
+
+main {
+  border-style: solid;
+  width: 80%;
+  height: 670px;
+  margin-top: -3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+footer {
+  background-image: url(assets/k08-bg-simple.gif);
+  background-color: white;
+  border-style: solid;
+  margin-top: -3px;
+  width: 20%;
+  height: 57px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

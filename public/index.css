@@ -19,6 +19,7 @@ main {
   width: 40%;
   height: auto;
   margin: auto;
+  padding: auto;
 
   h1 {
     font-family: "Janda Closer To Free";

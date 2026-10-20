@@ -1,0 +1,21 @@
+body {
+  color: black;
+}
+
+main {
+  h1 {
+    font-family: Verdana;
+  }
+  h2 {
+    font-family: Verdana;
+  }
+  p {
+    font-family: Verdana;
+  }
+  border-style: solid;
+  width: 80%;
+  height: 670px;
+  margin-top: -3px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -3,8 +3,6 @@ body {
   border-style: solid;
   width: 80%;
   height: 670px;
-  margin-top: -3px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   font-family: Verdana;
 }

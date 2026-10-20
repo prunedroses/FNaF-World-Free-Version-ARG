@@ -13,10 +13,10 @@ main {
   width: 80%;
   height: 670px;
   margin: auto;
-  h1 {
+  h1,
+  h2 {
     font-family: "Janda";
   }
-  h2,
   p {
     font-family: "Next Sunday";
   }

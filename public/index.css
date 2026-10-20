@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Romance A";
   src: url("/assets/RomanceA.ttf");
-  font-size: 200px;
 }
 
 @font-face {
@@ -22,11 +21,11 @@ main {
   margin: auto;
 
   h1 {
-    font-family: "Romance A";
+    font-family: "Janda Closer To Free";
   }
 
   h2 {
-    font-family: "Janda Closer To Free";
+    font-family: "Romance A";
   }
 
   p {

@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Cherish'; 
-    src: url('/assets/Cherish.ttf');
+    font-family: 'Yoster'; 
+    src: url('/assets/yoster.ttf');
 }
 @font-face {
-    font-family: 'Glamourgirl'; 
-    src: url('/assets/GLAMOURGIRL.TTF');
+    font-family: 'Bubble Club'; 
+    src: url('/assets/BUBBCB_.TTF');
 }
 
 main {
@@ -14,10 +14,10 @@ main {
   height: 670px;
   margin: auto;
   h1 {
-    font-family: 'Cherish';
+    font-family: 'Yoster';
   }
   h2,
   p {
-    font-family: 'Glamourgirl';
+    font-family: 'Bubble Club';
   }
 }

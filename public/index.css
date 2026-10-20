@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Yoster'; 
-    src: url('/assets/yoster.ttf');
+  font-family: "Janda";
+  src: url("/assets/JandaCloserToFree.ttf");
 }
 @font-face {
-    font-family: 'Bubble Club'; 
-    src: url('/assets/BUBBCB_.TTF');
+  font-family: "Next Sunday";
+  src: url("/assets/Next Sunday.ttf");
 }
 
 main {
@@ -14,10 +14,10 @@ main {
   height: 670px;
   margin: auto;
   h1 {
-    font-family: 'Yoster';
+    font-family: "Yoster";
   }
   h2,
   p {
-    font-family: 'Bubble Club';
+    font-family: "Next Sunday";
   }
 }

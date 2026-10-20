@@ -22,16 +22,22 @@ main {
 
   h1 {
     font-family: "Janda Closer To Free";
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
   h2 {
     font-family: "Romance A";
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
   p {
     font-family: "Next Sunday";
-    margin: auto;
+      display: flex;
+  justify-content: center;
+  align-items: center;
   }
 }

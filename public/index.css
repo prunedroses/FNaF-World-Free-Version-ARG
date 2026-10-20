@@ -19,8 +19,9 @@ main {
   width: 80%;
   height: 670px;
   margin: auto;
+  display: flex;
   justify-content: center;
-  align-items: center;
+}
 
   h1 {
     font-family: "Janda Closer To Free";
@@ -33,4 +34,3 @@ main {
   p {
     font-family: "Next Sunday";
   }
-}

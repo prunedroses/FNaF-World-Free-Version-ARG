@@ -4,5 +4,13 @@ body {
   width: 80%;
   height: 670px;
   margin: auto;
-  font-family: Verdana;
+  h1 {
+    font-family: Verdana;
+  }
+  h2 {
+    font-family: Verdana;
+  }
+  p {
+    font-family: Verdana;
+  }
 }

@@ -1,11 +1,14 @@
 @font-face {
   font-family: "Romance A";
   src: url("/assets/RomanceA.ttf");
+  font-size: large;
 }
+
 @font-face {
   font-family: "Janda Closer To Free";
   src: url("/assets/JandaCloserToFree.ttf");
 }
+
 @font-face {
   font-family: "Next Sunday";
   src: url("/assets/Next Sunday.ttf");
@@ -17,6 +20,7 @@ main {
   width: 80%;
   height: 670px;
   margin: auto;
+
   h1 {
     font-family: "Romance A";
   }
@@ -24,6 +28,7 @@ main {
   h2 {
     font-family: "Janda Closer To Free";
   }
+
   p {
     font-family: "Next Sunday";
   }

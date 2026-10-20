@@ -7,17 +7,17 @@
     src: url('/assets/GLAMOURGIRL.TTF');
 }
 
-body {
+main {
   color: black;
   border-style: solid;
   width: 80%;
   height: 670px;
   margin: auto;
   h1 {
-    font-family: Cherish;
+    font-family: 'Cherish';
   }
   h2,
   p {
-    font-family: Glamourgirl;
+    font-family: 'Glamourgirl';
   }
 }

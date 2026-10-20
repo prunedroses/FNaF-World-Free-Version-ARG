@@ -22,13 +22,16 @@ main {
 
   h1 {
     font-family: "Janda Closer To Free";
+    margin: auto;
   }
 
   h2 {
     font-family: "Romance A";
+    margin: auto;
   }
 
   p {
     font-family: "Next Sunday";
+    margin: auto;
   }
 }

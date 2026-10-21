@@ -13,12 +13,6 @@
   src: url("/assets/Next Sunday.ttf");
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 main {
   color: black;
   border-style: solid;

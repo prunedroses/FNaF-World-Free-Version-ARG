@@ -13,12 +13,11 @@ body {
     "header header"
     "sidebar main"
     "footer footer"
-    / 100px 1fr;
+    / 10% 1fr;
 }
 
 header {
   height: 10%;
-  width: 60%;
   background-color: white;
   text-align: center;
   border-style: solid;
@@ -54,20 +53,17 @@ ul li a:hover {
 aside {
   background-color: white;
   border-style: solid;
-  width: 10%;
   height: 670px;
   grid-area: sidebar;
 }
 
 main {
   border-style: solid;
-  width: 50%;
   height: 670px;
   grid-area: main;
 }
 
 footer {
-  width: 60%;
   background-color: white;
   border-style: solid;
   height: 10%;

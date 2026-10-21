@@ -1,11 +1,9 @@
 body {
-  background-image: url(assets/UntitledArtwork1.png);
   color: black;
   font-family: Verdana;
 }
 
 header {
-  background-image: url(assets/k08-bg-simple.gif);
   background-color: white;
   padding: 10px;
   text-align: center;
@@ -53,11 +51,10 @@ aside {
   margin-right: auto;
 }
 
-.leftBar{
+.leftBar {
   float: left;
 }
-
-.rightBar{
+.rightBar {
   float: right;
 }
 main {
@@ -68,13 +65,7 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-iframe {
-  border: none;
-  height: 100%;
-  width: 100%;
-}
 footer {
-  background-image: url(assets/k08-bg-simple.gif);
   background-color: white;
   border-style: solid;
   margin-top: -3px;

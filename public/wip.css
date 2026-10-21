@@ -42,6 +42,7 @@ aside {
   border-style: solid;
   width: 10%;
   height: 670px;
+  margin-top: -3px;
 }
 
 main {

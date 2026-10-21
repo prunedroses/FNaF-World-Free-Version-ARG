@@ -6,6 +6,16 @@ body {
   box-sizing: border-box;
 }
 
+.container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template:
+    "header header"
+    "sidebar main"
+    "footer footer"
+    / 100px 1fr;
+}
+
 header {
   height: 10%;
   width: 60%;
@@ -13,6 +23,7 @@ header {
   text-align: center;
   border-style: solid;
   border-color: black;
+  grid-area: header;
 }
 
 ul {
@@ -45,23 +56,23 @@ aside {
   border-style: solid;
   width: 10%;
   height: 670px;
-  margin-top: -3px;
+  grid-area: sidebar;
 }
 
 main {
   border-style: solid;
   width: 50%;
   height: 670px;
-  margin-top: -3px;
+  grid-area: main;
 }
 
 footer {
   width: 60%;
   background-color: white;
   border-style: solid;
-  margin-top: -3px;
   height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-area: footer;
 }

@@ -20,25 +20,26 @@ main {
   height: auto;
   margin: auto;
   padding: auto;
+  align-items: center
 
   h1 {
     font-family: "Janda Closer To Free";
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h2 {
     font-family: "Romance A";
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   p {
     font-family: "Next Sunday";
-      display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

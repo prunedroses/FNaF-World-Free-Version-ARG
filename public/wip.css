@@ -47,14 +47,14 @@ ul li a:hover {
 aside {
   background-color: white;
   border-style: solid;
-  width: 20%;
+  width: 10%;
   height: 670px;
-
+  
 }
 
 main {
   border-style: solid;
-  width: 40%;
+  width: 50%;
   height: 670px;
   margin-top: -3px;
   margin-left: auto;

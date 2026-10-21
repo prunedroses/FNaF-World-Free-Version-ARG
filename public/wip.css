@@ -1,6 +1,9 @@
 body {
   color: black;
-  font-family: Verdana;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 header {

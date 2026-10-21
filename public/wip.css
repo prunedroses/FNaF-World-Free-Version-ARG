@@ -53,14 +53,6 @@ aside {
   margin-right: auto;
 }
 
-  .leftBar {
-    float: left;
-  }
-
-  .rightBar {
-    float: right;
-  }
-
 main {
   border-style: solid;
   width: 40%;

@@ -1,4 +1,5 @@
 body {
+  width: 60%;
   color: black;
   font-family: Verdana;
   margin-left: auto;
@@ -9,7 +10,6 @@ header {
   background-color: white;
   padding: 10px;
   text-align: center;
-  width: 75%;
   margin: auto;
   border-style: solid;
   border-color: black;
@@ -44,34 +44,32 @@ ul li a:hover {
 }
 
 aside {
+  .leftBar {
+    float: left;
+  }
+  .rightBar {
+    float: right;
+  }
   background-color: white;
   border-style: solid;
-  width: 20%;
+  height: 670px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  border-style: solid;
   height: 670px;
   margin-top: -3px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.leftBar {
-  float: left;
-}
-.rightBar {
-  float: right;
-}
-main {
-  border-style: solid;
-  width: 50%;
-  height: 670px;
-  margin-top: -3px;
-  margin-left: auto;
-  margin-right: auto;
-}
 footer {
   background-color: white;
   border-style: solid;
   margin-top: -3px;
-  width: 75%;
   height: 57px;
   margin-left: auto;
   margin-right: auto;

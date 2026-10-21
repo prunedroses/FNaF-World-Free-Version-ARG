@@ -1,5 +1,4 @@
 body {
-  width: 60%;
   color: black;
   font-family: Verdana;
   margin-left: auto;
@@ -7,6 +6,7 @@ body {
 }
 
 header {
+  width: 60%;
   background-color: white;
   padding: 10px;
   text-align: center;
@@ -52,14 +52,15 @@ aside {
   }
   background-color: white;
   border-style: solid;
+  width: 20%;
   height: 670px;
-
   margin-left: auto;
   margin-right: auto;
 }
 
 main {
   border-style: solid;
+  width: 40%;
   height: 670px;
   margin-top: -3px;
   margin-left: auto;
@@ -67,6 +68,7 @@ main {
 }
 
 footer {
+  width: 60%;
   background-color: white;
   border-style: solid;
   margin-top: -3px;

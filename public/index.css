@@ -13,8 +13,9 @@
   src: url("/assets/Next Sunday.ttf");
 }
 
-body{
+body {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 

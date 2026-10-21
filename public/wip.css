@@ -9,7 +9,7 @@ header {
   background-color: white;
   padding: 10px;
   text-align: center;
-  width: 55%;
+  width: 80%;
   margin: auto;
   border-style: solid;
   border-color: black;
@@ -43,9 +43,19 @@ ul li a:hover {
   background-color: #c287aea4;
 }
 
+aside {
+  background-color: white;
+  border-style: solid;
+  width: 20%;
+  height: 670px;
+  margin-top: -3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main {
   border-style: solid;
-  width: 80%;
+  width: 60%;
   height: 670px;
   margin-top: -3px;
   margin-left: auto;

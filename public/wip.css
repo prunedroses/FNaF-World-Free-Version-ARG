@@ -7,13 +7,14 @@ body {
 }
 
 .container {
+  width: 60%;
   display: grid;
   grid-gap: 0px;
   grid-template:
     "header header"
-    "main sidebar"
+    "sidebar main"
     "footer footer"
-    / 50% 6fr;
+    / 1fr fit-content(20%);
 }
 
 header {

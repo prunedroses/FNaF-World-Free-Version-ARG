@@ -28,7 +28,7 @@ header {
   grid-area: header;
 
   nav {
-    ul {
+    ul li a {
       display: grid;
       grid-template:
         "home about fun diary misc"
@@ -36,9 +36,6 @@ header {
       list-style-type: none;
       overflow: hidden;
       margin: 0px;
-    }
-
-    ul li a {
       border-style: solid;
       border-color: black;
       border-width: 2px;

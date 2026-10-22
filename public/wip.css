@@ -45,8 +45,8 @@ header {
       border-style: solid;
       border-radius: 20px;
       border-color: black;
+      border-width: 2px;
       color: black;
-      text-align: center;
       text-decoration: none;
       background-color: white;
     }

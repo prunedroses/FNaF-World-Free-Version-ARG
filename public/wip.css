@@ -37,17 +37,20 @@ header {
       overflow: hidden;
     }
 
-    ul li a {
+    li {
+      position: relative;
+    }
+
+    a {
       border-style: solid;
       border-color: black;
       border-width: 2px;
       color: black;
       text-decoration: none;
       background-color: white;
-    }
-
-    ul li a:hover {
-      background-color: #c287aea4;
+      a:hover {
+        background-color: #c287aea4;
+      }
     }
   }
 }

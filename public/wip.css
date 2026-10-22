@@ -8,6 +8,7 @@ body {
 
 .container {
   width: 60%;
+  height: 100%;
   display: grid;
   grid-gap: 0px;
   grid-template:
@@ -18,7 +19,6 @@ body {
 }
 
 header {
-  height: 20%;
   background-color: white;
   text-align: center;
   border-style: solid;
@@ -54,20 +54,17 @@ ul li a:hover {
 aside {
   background-color: white;
   border-style: solid;
-  height: 50%;
   grid-area: sidebar;
 }
 
 main {
   border-style: solid;
-  height: 50%;
   grid-area: main;
 }
 
 footer {
   background-color: white;
   border-style: solid;
-  height: 20%;
   justify-content: center;
   align-items: center;
   grid-area: footer;

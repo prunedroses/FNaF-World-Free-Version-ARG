@@ -36,10 +36,11 @@ header {
 
     ul li {
       display: inline-block;
+      width: 175px;
     }
 
     ul li a {
-      width: 175px;
+      width: 100%;
       border-style: solid;
       border-radius: 20px;
       border-color: black;

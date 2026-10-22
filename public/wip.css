@@ -35,6 +35,7 @@ ul {
 
 ul li {
   float: left;
+  margin: auto;
   width: 175px;
 }
 

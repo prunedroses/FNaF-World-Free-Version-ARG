@@ -28,34 +28,34 @@ header {
   grid-area: header;
 }
 
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0px;
-}
+nav {
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+  }
 
-ul li {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  width: 175px;
-  padding: 0px;
-  margin: 0px;
-}
+  ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+  }
 
-ul li a {
-  display: block;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: black;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  background-color: white;
-}
+  ul li a {
+    display: block;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+  }
 
-ul li a:hover {
-  background-color: #c287aea4;
+  ul li a:hover {
+    background-color: #c287aea4;
+  }
 }
 
 aside {

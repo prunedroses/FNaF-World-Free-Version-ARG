@@ -25,6 +25,7 @@ header {
   border-style: solid;
   border-color: black;
   grid-area: header;
+  margin: auto;
 
   nav {
     width: 100%;
@@ -34,7 +35,6 @@ header {
       grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 0;
       overflow: hidden;
-      margin: auto;
     }
 
     ul li a {

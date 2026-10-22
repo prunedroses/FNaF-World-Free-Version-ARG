@@ -28,7 +28,7 @@ header {
   grid-area: header;
 
   nav {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -39,6 +39,7 @@ header {
     }
 
     ul li {
+      display: inline-block;
       width: 175px;
     }
 

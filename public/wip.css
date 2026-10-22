@@ -32,6 +32,10 @@ header {
       list-style-type: none;
       overflow: hidden;
       margin: 0px;
+      display: grid;
+      grid-template:
+        "home about fun diary misc"
+        / 1fr;
     }
 
     ul li {
@@ -41,7 +45,6 @@ header {
     }
 
     ul li a {
-      width: 100%;
       border-style: solid;
       border-radius: 20px;
       border-color: black;
@@ -53,6 +56,22 @@ header {
 
     ul li a:hover {
       background-color: #c287aea4;
+    }
+
+    .home {
+      grid-area: home;
+    }
+    .about {
+      grid-area: about;
+    }
+    .fun {
+      grid-area: fun;
+    }
+    .diary {
+      grid-area: diary;
+    }
+    .misc {
+      grid-area: misc;
     }
   }
 }

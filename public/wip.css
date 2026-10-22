@@ -16,7 +16,7 @@ body {
     "header header"
     "sidebar main"
     "footer footer"
-    / 20% 1fr fit-content(20%);
+    / 15% 1fr fit-content(20%);
 }
 
 header {

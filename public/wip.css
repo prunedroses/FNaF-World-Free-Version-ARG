@@ -16,7 +16,7 @@ body {
     "header header"
     "sidebar main"
     "footer footer"
-    / 10% 1fr fit-content(20%);
+    / 20% 1fr fit-content(20%);
 }
 
 header {
@@ -39,8 +39,6 @@ ul {
 ul li {
   float: left;
   width: 175px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 ul li a {

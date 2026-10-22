@@ -35,7 +35,6 @@ header {
       gap: 0;
       overflow: hidden;
       margin: auto;
-      place-items: center;
     }
 
     ul li a {

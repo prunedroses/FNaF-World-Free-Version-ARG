@@ -25,32 +25,30 @@ header {
   border-style: solid;
   border-color: black;
   grid-area: header;
+}
 
-  nav {
-    ul {
-      list-style: none;
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 0;
-      overflow: hidden;
-      margin: auto;
-    }
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  overflow: hidden;
+  margin: auto;
+}
 
-    ul li a {
-      display: block;
-      border-style: solid;
-      border-color: black;
-      border-radius: 10px;
-      border-width: 2px;
-      color: black;
-      text-decoration: none;
-      background-color: white;
-    }
+ul li a {
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
 
-    ul li a:hover {
-      background-color: #c287aea4;
-    }
-  }
+ul li a:hover {
+  background-color: #c287aea4;
 }
 
 aside {

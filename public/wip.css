@@ -35,7 +35,7 @@ header {
       display: grid;
       grid-template:
         "home about fun diary misc"
-        / 1fr;
+        / 1fr 1fr 1fr 1fr 1fr;
     }
 
     ul li a {

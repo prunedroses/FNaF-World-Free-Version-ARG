@@ -35,6 +35,7 @@ header {
     }
 
     ul li {
+      margin: 0 auto;
       display: inline-block;
       width: 175px;
     }

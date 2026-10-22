@@ -29,13 +29,15 @@ header {
 
   nav {
     ul {
+      display: flex;
+      justify-content: center;
       list-style-type: none;
       overflow: hidden;
       margin: 0px;
     }
 
     ul li {
-      display: inline-flex;
+      display: inline-block;
       justify-content: center;
       width: 175px;
     }

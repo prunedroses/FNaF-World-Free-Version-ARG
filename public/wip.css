@@ -38,12 +38,6 @@ header {
         / 1fr;
     }
 
-    ul li {
-      display: inline-block;
-      margin: 0 auto;
-      width: 175px;
-    }
-
     ul li a {
       border-style: solid;
       border-radius: 20px;

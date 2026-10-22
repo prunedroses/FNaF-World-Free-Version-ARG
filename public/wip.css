@@ -11,9 +11,9 @@ body {
   grid-gap: 0px;
   grid-template:
     "header header"
-    "sidebar main"
+    "main sidebar"
     "footer footer"
-    / 10% 6fr;
+    / 50% 6fr;
 }
 
 header {

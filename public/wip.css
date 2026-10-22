@@ -21,6 +21,7 @@ body {
 
 header {
   background-color: white;
+  padding: 5%;
   text-align: center;
   border-style: solid;
   border-color: black;
@@ -35,7 +36,6 @@ ul {
 
 ul li {
   float: left;
-  margin: auto;
   width: 175px;
 }
 

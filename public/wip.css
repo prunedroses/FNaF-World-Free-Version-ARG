@@ -27,7 +27,6 @@ header {
   grid-area: header;
 
   nav {
-    width: 100%;
     ul {
       list-style: none;
       display: grid;

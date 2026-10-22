@@ -34,6 +34,7 @@ ul {
   list-style-type: none;
   width: 1300px;
   overflow: hidden;
+  margin: 0px;
 }
 
 ul li {

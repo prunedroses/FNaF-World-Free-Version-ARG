@@ -27,13 +27,16 @@ header {
   grid-area: header;
 }
 
+nav {
+  margin: auto;
+}
+
 ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
-  margin: auto;
 }
 
 ul li a {

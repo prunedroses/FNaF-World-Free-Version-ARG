@@ -36,7 +36,7 @@ nav {
 ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 5px;
+  gap: 0px;
   overflow: hidden;
   list-style: none;
   margin: 0;

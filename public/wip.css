@@ -13,7 +13,7 @@
 }
 
 .container {
-  border-style: solid;
+  border: 2px solid transparent;
   border-radius: 10px;
   border-image: url(assets/f-sita.gif), url(assets/f-ue.gif);
   margin: auto;

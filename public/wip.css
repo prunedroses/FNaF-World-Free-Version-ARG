@@ -30,9 +30,7 @@ header {
 ul {
   list-style: none;
   display: grid;
-  grid-template-columns:
-    "home about diary fun misc"
-    / repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
   place-items: center;

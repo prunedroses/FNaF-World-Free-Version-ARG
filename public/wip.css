@@ -1,7 +1,4 @@
 .container {
-  background-color: white;
-  color: black;
-  border-color: black;
   box-sizing: border-box;
   margin: 0 auto;
   width: 60%;
@@ -20,6 +17,7 @@ header {
   background-color: white;
   text-align: center;
   border-style: solid solid none solid;
+  border-color: black;
   grid-area: header;
   padding: 0px;
 }

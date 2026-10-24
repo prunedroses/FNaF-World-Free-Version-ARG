@@ -1,3 +1,6 @@
+body{
+  background-image: url(assets/chocoog4.gif);
+}
 * {
   box-sizing: border-box;
 }
@@ -15,7 +18,7 @@
 .container {
   border: 10px solid transparent;
   border-radius: 10px;
-  border-image: url(assets/extra08_07.png) 30 round;
+  border-image: url(assets/extra08_07.png) 10 round;
   margin: auto;
   width: 60%;
   height: 100%;

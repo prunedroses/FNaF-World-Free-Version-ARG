@@ -79,7 +79,7 @@ ul li a:hover {
 aside {
   font-family: "Next Sunday";
   background-color: white;
-  padding-left: 10px;
+  padding-left: 20px;
   width: 100%;
   grid-area: sidebar;
 }

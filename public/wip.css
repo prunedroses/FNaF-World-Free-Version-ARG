@@ -25,6 +25,9 @@ header {
   border-style: solid;
   border-color: black;
   grid-area: header;
+}
+
+nav {
   display: block;
   margin: 0 auto;
 }
@@ -34,7 +37,6 @@ ul {
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
-  margin: 0 auto;
   list-style: none;
 }
 

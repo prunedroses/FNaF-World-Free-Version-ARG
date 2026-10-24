@@ -33,7 +33,7 @@ body {
 }
 
 header {
-  background-color: #f6f7e9;
+  background-color: #f7f2e9;
   text-align: center;
   grid-area: header;
   padding: 0px;
@@ -41,7 +41,7 @@ header {
 }
 
 nav {
-  background-color: #f6f7e9;
+  background-color: #f7f2e9;
   padding: 0px;
   grid-area: nav;
   border-bottom: 2px dashed #ffc4cf;
@@ -79,7 +79,7 @@ ul li a:hover {
 
 aside {
   font-family: "Next Sunday";
-  background-color: #f6f7e9;
+  background-color: #f7f2e9;
   padding-left: 20px;
   width: 100%;
   border-right: 2px dashed #ffc4cf;
@@ -90,12 +90,12 @@ main {
   font-family: "Next Sunday";
   grid-area: main;
   width: 100%;
-  background-color: #f6f7e9;
+  background-color: #f7f2e9;
 }
 
 footer {
   font-family: "Romance A";
-  background-color: #f6f7e9;
+  background-color: #f7f2e9;
   border-top: 2px dashed #ffc4cf;
   width: 100%;
   text-align: center;

@@ -15,7 +15,7 @@
 .container {
   border-style: solid;
   border-radius: 10px;
-  border-color: black;
+  border-image: url(assets/f-sita.gif), url(assets/f-ue.gif);
   margin: auto;
   width: 60%;
   height: 100%;

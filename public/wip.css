@@ -29,7 +29,7 @@ nav {
   background-color: white;
   border-style: none solid;
   border-color: black;
-  padding: 1px;
+  padding: 10px;
   grid-area: nav;
 }
 

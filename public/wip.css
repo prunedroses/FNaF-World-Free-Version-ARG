@@ -44,7 +44,7 @@ nav {
   background-color: #f6f7e9;
   padding: 0px;
   grid-area: nav;
-  border-bottom: 5px dashed #ffc4cf;
+  border-bottom: 2px dashed #ffc4cf;
 }
 
 ul {
@@ -96,7 +96,7 @@ main {
 footer {
   font-family: "Romance A";
   background-color: #f6f7e9;
-  border-top: 5px dashed #ffc4cf;
+  border-top: 2px dashed #ffc4cf;
   width: 100%;
   text-align: center;
   margin: auto;

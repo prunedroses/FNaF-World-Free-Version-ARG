@@ -29,14 +29,15 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template:
+  "a a a a a"
+  / repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
   margin: 0 auto;
 }
 
 ul {
-  display: inherit;
   list-style: none;
 }
 

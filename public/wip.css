@@ -82,7 +82,7 @@ aside {
   background-color: #f6f7e9;
   padding-left: 20px;
   width: 100%;
-  border-right: 5px dashed #ffc4cf;
+  border-right: 2px dashed #ffc4cf;
   grid-area: sidebar;
 }
 

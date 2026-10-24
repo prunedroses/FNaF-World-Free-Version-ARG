@@ -34,6 +34,7 @@ nav {
   border-style: none solid;
   border-color: black;
   padding: 0px;
+  grid-area: nav;
 }
 
 ul {

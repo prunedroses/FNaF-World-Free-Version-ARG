@@ -18,8 +18,7 @@ body {
 .container {
   border: 10px solid transparent;
   border-radius: 10px;
-  border-image: url(assets/extra08_07.png) repeat;
-  border-image-outset: 10px;
+  border-image: url(assets/IMG_8837.png) 10 fill round;
   margin: auto;
   width: 60%;
   height: 100%;

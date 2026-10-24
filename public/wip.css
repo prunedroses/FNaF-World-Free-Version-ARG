@@ -30,7 +30,6 @@ header {
 
 nav {
   grid-area: nav;
-  place-items: center;
 }
 
 ul {
@@ -39,6 +38,7 @@ ul {
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
+  place-items: center;
 }
 
 ul li a {

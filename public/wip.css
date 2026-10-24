@@ -17,6 +17,7 @@ body {
     "sidebar main"
     "footer footer"
     / 15% 1fr fit-content(20%);
+  place-items: center;
 }
 
 header {

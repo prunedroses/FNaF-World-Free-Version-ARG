@@ -46,7 +46,6 @@ ul {
 ul li a {
   display: block;
   border-style: solid none none none;
-  border-color: black;
   border-radius: 10px 10px 0px 0px;
   border-width: 3px;
   text-align: center;

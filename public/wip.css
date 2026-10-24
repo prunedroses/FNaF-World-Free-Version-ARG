@@ -64,7 +64,7 @@ ul li a:hover {
 
 aside {
   background-color: white;
-  border-style: solid;
+  border-style: solid solid solid none;
   grid-area: sidebar;
 }
 
@@ -75,7 +75,7 @@ main {
 
 footer {
   background-color: white;
-  border-style: solid;
+  border-style: none solid solid solid;
   justify-content: center;
   align-items: center;
   grid-area: footer;

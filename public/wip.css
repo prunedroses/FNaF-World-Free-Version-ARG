@@ -26,6 +26,7 @@ header {
   border-style: solid solid none solid;
   border-color: black;
   grid-area: header;
+  padding-bottom: 0px;
 }
 
 nav {

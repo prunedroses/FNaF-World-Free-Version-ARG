@@ -36,6 +36,7 @@ nav {
 }
 
 ul {
+  display: inherit;
   list-style: none;
 }
 

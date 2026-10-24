@@ -32,6 +32,7 @@ ul {
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
+  list-style: none;
 }
 
 ul li a {
@@ -43,7 +44,6 @@ ul li a {
   border-radius: 10px;
   border-width: 2px;
   color: black;
-  list-style: none;
   text-decoration: none;
   background-color: white;
   width: 100%;

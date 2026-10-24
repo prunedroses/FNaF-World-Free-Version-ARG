@@ -47,12 +47,12 @@ ul li {
   width: 100%;
 }
 
-ul li a {
-  text-decoration: none;
-}
-
 ul li:hover {
   background-color: #c287aea4;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 aside {

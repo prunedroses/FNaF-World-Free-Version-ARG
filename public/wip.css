@@ -27,7 +27,7 @@ header {
   grid-area: header;
 }
 
-nav {
+ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
@@ -35,7 +35,10 @@ nav {
   list-style: none;
 }
 
-nav ul li a {
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: block;
   border-style: solid;
   border-color: black;
@@ -47,7 +50,7 @@ nav ul li a {
   width: 100%;
 }
 
-nav ul li a:hover {
+ul li a:hover {
   background-color: #c287aea4;
 }
 

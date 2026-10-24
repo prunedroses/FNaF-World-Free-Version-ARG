@@ -1,13 +1,10 @@
-body {
-  color: black;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .container {
+  color: black;
+  border-color: black;
+  background-color: white;
+  box-sizing: border-box;
   margin: 0 auto;
+  text-align: center;
   width: 60%;
   height: 100%;
   display: grid;
@@ -21,21 +18,18 @@ body {
 }
 
 header {
-  background-color: white;
   text-align: center;
   border-style: solid solid none solid;
-  border-color: black;
-  grid-area: header;
+
   padding-bottom: 0px;
+  grid-area: header;
 }
 
 nav {
   background-color: white;
-  text-align: center;
   border-style: none solid;
   border-color: black;
   padding: 0px;
-  text-align: center;
   grid-area: nav;
 }
 

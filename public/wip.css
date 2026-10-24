@@ -36,8 +36,9 @@ ul {
 }
 
 ul li a {
-  display: block;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-style: solid;
   border-color: black;
   border-radius: 10px;

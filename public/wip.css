@@ -32,21 +32,23 @@ ul {
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
-
+  list-style: none;
 }
 
 ul li {
-  display: flex;
-  justify-content: center;
+    justify-content: center;
   align-items: center;
   border-style: solid;
   border-color: black;
   border-radius: 10px;
   border-width: 2px;
-    width: 100%;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  width: 100%;
 }
 
-ul li a:hover {
+ul li:hover {
   background-color: #c287aea4;
 }
 

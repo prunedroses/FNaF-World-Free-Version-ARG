@@ -47,7 +47,7 @@ ul li a {
   display: block;
   border-style: solid none none none;
   border-color: black;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   border-width: 2px;
   text-align: center;
   color: black;

@@ -13,9 +13,9 @@
 }
 
 .container {
-  border: 2px solid transparent;
+  border: 10px solid transparent;
   border-radius: 10px;
-  border-image: url(assets/f-ue.gif) 50 round;
+  border-image: url(assets/f-ue.gif) 10 round;
   margin: auto;
   width: 60%;
   height: 100%;

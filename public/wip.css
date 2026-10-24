@@ -29,7 +29,7 @@ nav {
   background-color: white;
   border-style: none solid;
   border-color: black;
-  padding: 0px;
+  padding: 1px;
   grid-area: nav;
 }
 
@@ -44,7 +44,6 @@ ul {
 }
 
 ul li a {
-  padding: 1px;
   display: block;
   border-style: solid;
   border-color: black;

@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Janda Closer To Free";
+  src: url("/assets/JandaCloserToFree.ttf");
+}
+
+@font-face {
+  font-family: "Romance A";
+  src: url("/assets/RomanceA.ttf");
+}
+
+@font-face {
+  font-family: "Next Sunday";
+  src: url("/assets/Next Sunday.ttf");
+}
+
 .container {
   border-style: solid;
   border-color: black;
@@ -23,6 +38,7 @@ header {
   text-align: center;
   grid-area: header;
   padding: 0px;
+  font-family: "Janda Closer To Free";
 }
 
 nav {
@@ -42,6 +58,7 @@ ul {
 }
 
 ul li a {
+  font-family: "Romance A";
   display: block;
   border-style: solid none none none;
   border-radius: 10px 10px 0px 0px;
@@ -61,16 +78,19 @@ ul li a:hover {
 }
 
 aside {
+  font-family: "Next Sunday";
   background-color: white;
   margin-left: 10px;
   grid-area: sidebar;
 }
 
 main {
+  font-family: "Next Sunday";
   grid-area: main;
 }
 
 footer {
+  font-family: "Next Sunday";
   background-color: white;
   margin: auto;
   grid-area: footer;

@@ -25,19 +25,16 @@ header {
   border-style: solid;
   border-color: black;
   grid-area: header;
-}
-
-nav {
-  display: grid;
-  grid-template:
-  "a a a a a"
-  / repeat(5, 1fr);
-  gap: 0;
-  overflow: hidden;
+  display: block;
   margin: 0 auto;
 }
 
 ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  overflow: hidden;
+  margin: 0 auto;
   list-style: none;
 }
 

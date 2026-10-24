@@ -18,9 +18,7 @@
 }
 
 header {
-  text-align: center;
   border-style: solid solid none solid;
-
   padding-bottom: 0px;
   grid-area: header;
 }
@@ -42,9 +40,6 @@ ul {
 }
 
 ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-style: solid;
   border-color: black;
   border-radius: 10px;

@@ -72,7 +72,6 @@ main {
 
 footer {
   background-color: white;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   grid-area: footer;
 }

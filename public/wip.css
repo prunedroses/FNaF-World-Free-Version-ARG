@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin: auto;
+  margin: 0 auto;
   width: 60%;
   height: 100%;
   display: grid;
@@ -29,8 +29,6 @@ header {
 }
 
 nav {
-  display: block;
-  margin: 0 auto;
   background-color: white;
   text-align: center;
   border-style: solid;
@@ -49,6 +47,9 @@ ul {
 }
 
 ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-style: solid;
   border-color: black;
   border-radius: 10px;

@@ -28,12 +28,6 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
@@ -41,7 +35,7 @@ ul {
   list-style: none;
 }
 
-ul li a {
+nav ul li a {
   display: block;
   border-style: solid;
   border-color: black;
@@ -53,7 +47,7 @@ ul li a {
   width: 100%;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   background-color: #c287aea4;
 }
 

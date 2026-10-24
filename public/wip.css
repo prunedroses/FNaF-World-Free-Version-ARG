@@ -14,7 +14,6 @@ body {
   grid-gap: 0px;
   grid-template:
     "header header"
-    "nav nav"
     "sidebar main"
     "footer footer"
     / 15% 1fr fit-content(20%);
@@ -28,17 +27,12 @@ header {
   grid-area: header;
 }
 
-nav {
-  grid-area: nav;
-}
-
 ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
-  place-items: center;
 }
 
 ul li a {

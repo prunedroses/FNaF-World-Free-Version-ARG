@@ -29,9 +29,9 @@ header {
 }
 
 nav {
-  display: block;
-  margin: 0 auto;
-  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {

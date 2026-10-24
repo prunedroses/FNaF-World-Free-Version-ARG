@@ -16,9 +16,9 @@ body {
 }
 
 .container {
-  border: 10px solid transparent;
+  border: 12px solid transparent;
   border-radius: 10px;
-  border-image: url(assets/IMG_8837.png) 10 fill round;
+  border-image: url(assets/IMG_8837.png) 12 fill round;
   margin: auto;
   width: 60%;
   height: 100%;

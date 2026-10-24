@@ -18,12 +18,14 @@
 }
 
 header {
+  width: inherit;
   border-style: solid solid none solid;
   padding-bottom: 0px;
   grid-area: header;
 }
 
 nav {
+  width: inherit;
   background-color: white;
   border-style: none solid;
   border-color: black;

@@ -15,7 +15,7 @@
 .container {
   border: 10px solid transparent;
   border-radius: 10px;
-  border-image: url(assets/f-ue.gif) 10 round;
+  border-image: url(assets/f-ue.gif), url(assets/f-sita.gif) 10 round;
   margin: auto;
   width: 60%;
   height: 100%;

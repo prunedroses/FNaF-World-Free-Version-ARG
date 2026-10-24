@@ -1,4 +1,4 @@
-body{
+body {
   background-image: url(assets/chocoog4.gif);
 }
 * {
@@ -80,17 +80,21 @@ aside {
   font-family: "Next Sunday";
   background-color: white;
   margin-left: 10px;
+  width: 100%;
   grid-area: sidebar;
 }
 
 main {
   font-family: "Next Sunday";
   grid-area: main;
+  width: 100%;
+  background-color: white;
 }
 
 footer {
   font-family: "Romance A";
   background-color: white;
+  width: 100%;
   margin: auto;
   grid-area: footer;
 }

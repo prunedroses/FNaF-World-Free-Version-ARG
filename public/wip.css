@@ -44,6 +44,8 @@ ul li a {
   color: black;
   text-decoration: none;
   background-color: white;
+  width: 20%;
+  margin: 0 auto;
 }
 
 ul li a:hover {

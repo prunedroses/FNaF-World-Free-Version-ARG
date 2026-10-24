@@ -27,7 +27,7 @@ header {
   grid-area: header;
 }
 
-nav {
+ul {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0;

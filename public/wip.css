@@ -27,16 +27,15 @@ header {
   grid-area: header;
 }
 
-nav {
+ul {
+  list-style: none;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template:
+    "home about diary fun misc"
+    / repeat(5, 1fr);
   gap: 0;
   overflow: hidden;
   place-items: center;
-}
-
-ul {
-  list-style: none;
 }
 
 ul li a {

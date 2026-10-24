@@ -14,8 +14,9 @@
 
 .container {
   border-style: solid;
+  border-radius: 10px;
   border-color: black;
-  margin: 0 auto;
+  margin: auto;
   width: 60%;
   height: 100%;
   display: grid;

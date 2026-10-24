@@ -62,6 +62,7 @@ ul li a:hover {
 
 aside {
   background-color: white;
+  margin-left: 10px;
   grid-area: sidebar;
 }
 

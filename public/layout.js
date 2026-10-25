@@ -85,19 +85,19 @@ const headerEl = `
       <nav>
         <ul>
           <li class="home">
-            <a href="#" target="mainPages">home</a>
+            <a href="/index.html">home</a>
           </li>
           <li class="about">
-            <a href="#" target="mainPages">about me</a>
+            <a href="/about.html">about me</a>
           </li>
           <li class="diary">
-            <a href="#" target="mainPages">my diary</a>
+            <a href="/diary.html">my diary</a>
           </li>
           <li class="fun">
-            <a href="#" target="mainPages">fun</a>
+            <a href="/fun.html">fun</a>
           </li>
           <li class="misc">
-            <a href="#" target="mainPages">misc</a>
+            <a href="/misc.html">misc</a>
           </li>
         </ul>
       </nav>

@@ -178,11 +178,6 @@ const sidebarEl1 = `
           ><span style="color: #e948b9">y</span> type!
           <img style="vertical-align: middle" src="/assets/fairy.png" />
         </p>
-        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
-        <p>
-          webrings <br />
-          n/a
-        </p>
       </aside>
 `;
 

@@ -80,38 +80,108 @@ const nesting = getNestingString();
 
 // Insert your header HTML inside these ``. You can use HTML as usual.
 const headerEl = `
-	<header>
-		Header. Example of how to use the 'active' class to style active links (here: bold):
-		<nav>
-			<a href="/coding/layout-base-code">homepage</a>
-			<a href="/coding/base-code-example/">this page</a>
-			<a href="/coding/layout-base-code">other page</a>
-			<a href="/coding/layout-base-code">other page</a>
-		</nav>
-	</header>
+      <header>
+        <h1>the digital home of funtimechicafan !!!</h1>
+      </header>
+      <nav>
+        <ul>
+          <li class="home">
+            <a href="#" target="mainPages">home</a>
+          </li>
+          <li class="about">
+            <a href="#" target="mainPages">about me</a>
+          </li>
+          <li class="diary">
+            <a href="#" target="mainPages">my diary</a>
+          </li>
+          <li class="fun">
+            <a href="#" target="mainPages">fun</a>
+          </li>
+          <li class="misc">
+            <a href="#" target="mainPages">misc</a>
+          </li>
+        </ul>
+      </nav>
 `;
 
 // Insert your footer HTML inside these ``. You can use HTML as usual.
 // Remove all the content inside the `` if you don't have a footer.
 const footerEl = `
-	<footer>
-		Footer. Example of how to add an image: 
-		<img src="${nesting}/assets/img/layout/divider1.gif" alt="" aria-hidden="true"/>
-	</footer>
+      <footer>
+        <p>
+          <img
+            src="/assets/bestviewedcomp.gif"
+            alt="Best viewed on computer!"
+          />
+          <a href="https://fnafworldfreeversion.straw.page/"
+            ><img src="/assets/scottgames.gif" alt="I like FNaF" />
+          </a>
+          <a href="mailto:funtimechicafan3274@gmail.com"
+            ><img
+              src="/assets/email.gif"
+              alt="Email me with any questions or comments!"
+            />
+          </a>
+          <img src="/assets/100-percent-human.png" alt="100% human! 0% AI!" />
+        </p>
+      </footer>
 `;
 
 // Insert your sidebar HTML inside these ``. You can use HTML as usual.
 // Remove all the content inside the `` if you don't have a sidebar.
 const sidebarEl1 = `
-	<aside>
-		Sidebar1
-	</aside>
-`;
+     <aside>
+        <iframe
+          width="131"
+          height="131"
+          style="border: none"
+          src="https://nvlk.dimden.dev/"
+          name="neolink"
+        ></iframe>
+        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        <p>
+          consider signing my guestbook!
+          <a href="/pages/guestbook.html"
+            ><img src="/assets/guestbook.gif" alt="Please sign my guestbook!"
+          /></a>
+        </p>
+        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        <p>
+          you are the
+          <script
+            type="text/javascript"
+            src="https://counter.websiteout.com/js/33/12/0/1"
+          ></script>
+          visitor!
+        </p>
+        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        <p>
+          cliques <br /><a href="http://cliqued.wings.nu/">
+            NPC <img src="/assets/pink.png" />
+          </a>
+          funtime chica<br />
+          <a href="http://cliqued.wings.nu/"
+            >OTF <img src="/assets/pink2.png"
+          /></a>
+          fnaf<br />
 
-// Insert your sidebar HTML inside these ``. You can use HTML as usual.
-// Remove all the content inside the `` if you don't have a sidebar.
-const sidebarEl2 = `
-	<aside>
-		Sidebar2
-	</aside>
+          <a href="https://funnyorangecat.neocities.org/funnyorangecat/cliques"
+            ><i>sweet tooth</i></a
+          >
+          <img src="/assets/sthny4.gif" /><br />
+          <b>kiki</b> is a
+          <a href="http://seafare.neocities.org/cliques">master</a> of the
+          <span style="color: #f07ab5">f</span
+          ><span style="color: #ee6db6">a</span
+          ><span style="color: #ec61b7">i</span
+          ><span style="color: #eb54b8">r</span
+          ><span style="color: #e948b9">y</span> type!
+          <img style="vertical-align: middle" src="/assets/fairy.png" />
+        </p>
+        <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
+        <p>
+          webrings <br />
+          n/a
+        </p>
+      </aside>
 `;

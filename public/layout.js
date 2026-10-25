@@ -141,7 +141,7 @@ const sidebarEl1 = `
         <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
         <p>
           consider signing my guestbook!
-          <a href="/pages/guestbook.html"
+          <a href="https://funtimechicafan3274.atabook.org/"
             ><img src="/assets/guestbook.gif" alt="Please sign my guestbook!"
           /></a>
         </p>

@@ -30,7 +30,6 @@ body {
   grid-gap: 0px;
   grid-template:
     "header header"
-    "nav nav"
     "sidebar main"
     "footer footer"
     / 15% 1fr fit-content(20%);

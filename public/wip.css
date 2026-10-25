@@ -4,6 +4,9 @@ body {
 }
 * {
   box-sizing: border-box;
+  cursor:
+    url("/assets/foo20.cur") 32 32,
+    auto !important;
 }
 
 @font-face {

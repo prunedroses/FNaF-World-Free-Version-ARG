@@ -82,7 +82,6 @@ const nesting = getNestingString();
 const headerEl = `
       <header>
         <h1>the digital home of funtimechicafan !!!</h1>
-      </header>
       <nav>
         <ul>
           <li class="home">
@@ -102,6 +101,7 @@ const headerEl = `
           </li>
         </ul>
       </nav>
+            </header>
 `;
 
 // Insert your footer HTML inside these ``. You can use HTML as usual.

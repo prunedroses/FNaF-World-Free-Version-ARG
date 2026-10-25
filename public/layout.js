@@ -185,3 +185,8 @@ const sidebarEl1 = `
         </p>
       </aside>
 `;
+
+// Insert your sidebar HTML inside these ``. You can use HTML as usual.
+// Remove all the content inside the `` if you don't have a sidebar.
+const sidebarEl2 = `
+`;

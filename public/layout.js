@@ -110,19 +110,19 @@ const footerEl = `
       <footer>
         <p>
           <img
-            src="/assets/bestviewedcomp.gif"
+            src="${nesting}/assets/bestviewedcomp.gif"
             alt="Best viewed on computer!"
           />
           <a href="https://fnafworldfreeversion.straw.page/"
-            ><img src="/assets/scottgames.gif" alt="I like FNaF" />
+            ><img src="${nesting}/assets/scottgames.gif" alt="I like FNaF" />
           </a>
           <a href="mailto:funtimechicafan3274@gmail.com"
             ><img
-              src="/assets/email.gif"
+              src="${nesting}/assets/email.gif"
               alt="Email me with any questions or comments!"
             />
           </a>
-          <img src="/assets/100-percent-human.png" alt="100% human! 0% AI!" />
+          <img src="${nesting}/assets/100-percent-human.png" alt="100% human! 0% AI!" />
         </p>
       </footer>
 `;
@@ -142,7 +142,7 @@ const sidebarEl1 = `
         <p>
           consider signing my guestbook!
           <a href="https://funtimechicafan3274.atabook.org/"
-            ><img src="/assets/guestbook.gif" alt="Please sign my guestbook!"
+            ><img src="${nesting}/assets/guestbook.gif" alt="Please sign my guestbook!"
           /></a>
         </p>
         <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
@@ -157,18 +157,18 @@ const sidebarEl1 = `
         <p>⏔⏔⏔ ꒰ ᧔ෆ᧓ ꒱ ⏔⏔⏔</p>
         <p>
           cliques <br /><a href="http://cliqued.wings.nu/">
-            NPC <img src="/assets/pink.png" />
+            NPC <img src="${nesting}/assets/pink.png" />
           </a>
           funtime chica<br />
           <a href="http://cliqued.wings.nu/"
-            >OTF <img src="/assets/pink2.png"
+            >OTF <img src="${nesting}/assets/pink2.png"
           /></a>
           fnaf<br />
 
           <a href="https://funnyorangecat.neocities.org/funnyorangecat/cliques"
             ><i>sweet tooth</i></a
           >
-          <img src="/assets/sthny4.gif" /><br />
+          <img src="${nesting}/assets/sthny4.gif" /><br />
           <b>kiki</b> is a
           <a href="http://seafare.neocities.org/cliques">master</a> of the
           <span style="color: #f07ab5">f</span
@@ -176,7 +176,7 @@ const sidebarEl1 = `
           ><span style="color: #ec61b7">i</span
           ><span style="color: #eb54b8">r</span
           ><span style="color: #e948b9">y</span> type!
-          <img style="vertical-align: middle" src="/assets/fairy.png" />
+          <img style="vertical-align: middle" src="${nesting}/assets/fairy.png" />
         </p>
       </aside>
 `;

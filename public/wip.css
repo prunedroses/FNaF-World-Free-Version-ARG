@@ -89,6 +89,7 @@ aside {
   padding-left: 10px;
   width: 100%;
   border-right: 2px dashed #dd5972;
+  margin: auto;
   grid-area: sidebar;
 }
 

@@ -111,3 +111,7 @@ footer {
   margin: auto;
   grid-area: footer;
 }
+
+.active {
+  font-weight: bold;
+}

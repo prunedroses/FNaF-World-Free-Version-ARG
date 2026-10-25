@@ -1,6 +1,19 @@
 body {
   background-image: url(assets/chocoog4.gif);
   background-size: 87.4px 68.7px;
+  border: 12px solid transparent;
+  border-radius: 10px;
+  border-image: url(assets/IMG_8837.png) 12 fill round;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-gap: 0px;
+  grid-template:
+    "header header"
+    "sidebar main"
+    "footer footer"
+    / 15% 1fr fit-content(20%);
 }
 * {
   box-sizing: border-box;
@@ -17,22 +30,6 @@ body {
 @font-face {
   font-family: "Next Sunday";
   src: url("/assets/Next Sunday.ttf");
-}
-
-.container {
-  border: 12px solid transparent;
-  border-radius: 10px;
-  border-image: url(assets/IMG_8837.png) 12 fill round;
-  margin: auto;
-  width: 60%;
-  height: 100%;
-  display: grid;
-  grid-gap: 0px;
-  grid-template:
-    "header header"
-    "sidebar main"
-    "footer footer"
-    / 15% 1fr fit-content(20%);
 }
 
 header {

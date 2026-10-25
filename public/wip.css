@@ -107,3 +107,7 @@ footer {
   margin: auto;
   grid-area: footer;
 }
+
+.visitCounter {
+  vertical-align: middle;
+}

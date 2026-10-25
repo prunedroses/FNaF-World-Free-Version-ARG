@@ -102,35 +102,7 @@ const headerEl = `
         </ul>
       </nav>
             </header>
-`;
-
-// Insert your footer HTML inside these ``. You can use HTML as usual.
-// Remove all the content inside the `` if you don't have a footer.
-const footerEl = `
-      <footer>
-        <p>
-          <img
-            src="${nesting}/assets/bestviewedcomp.gif"
-            alt="Best viewed on computer!"
-          />
-          <a href="https://fnafworldfreeversion.straw.page/"
-            ><img src="${nesting}/assets/scottgames.gif" alt="I like FNaF" />
-          </a>
-          <a href="mailto:funtimechicafan3274@gmail.com"
-            ><img
-              src="${nesting}/assets/email.gif"
-              alt="Email me with any questions or comments!"
-            />
-          </a>
-          <img src="${nesting}/assets/100-percent-human.png" alt="100% human! 0% AI!" />
-        </p>
-      </footer>
-`;
-
-// Insert your sidebar HTML inside these ``. You can use HTML as usual.
-// Remove all the content inside the `` if you don't have a sidebar.
-const sidebarEl1 = `
-     <aside>
+                 <aside>
         <iframe
           width="131"
           height="131"
@@ -179,6 +151,35 @@ const sidebarEl1 = `
           <img style="vertical-align: middle" src="${nesting}/assets/fairy.png" />
         </p>
       </aside>
+`;
+
+// Insert your footer HTML inside these ``. You can use HTML as usual.
+// Remove all the content inside the `` if you don't have a footer.
+const footerEl = `
+      <footer>
+        <p>
+          <img
+            src="${nesting}/assets/bestviewedcomp.gif"
+            alt="Best viewed on computer!"
+          />
+          <a href="https://fnafworldfreeversion.straw.page/"
+            ><img src="${nesting}/assets/scottgames.gif" alt="I like FNaF" />
+          </a>
+          <a href="mailto:funtimechicafan3274@gmail.com"
+            ><img
+              src="${nesting}/assets/email.gif"
+              alt="Email me with any questions or comments!"
+            />
+          </a>
+          <img src="${nesting}/assets/100-percent-human.png" alt="100% human! 0% AI!" />
+        </p>
+      </footer>
+`;
+
+// Insert your sidebar HTML inside these ``. You can use HTML as usual.
+// Remove all the content inside the `` if you don't have a sidebar.
+const sidebarEl1 = `
+
 `;
 
 // Insert your sidebar HTML inside these ``. You can use HTML as usual.

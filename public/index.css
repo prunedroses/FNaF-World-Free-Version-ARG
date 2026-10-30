@@ -1,9 +1,7 @@
-.page {
+body {
   margin: auto;
   background-image: url(assets/chocoog4.gif);
   background-size: 87.4px 68.7px;
-}
-body {
   border: 12px solid transparent;
   border-radius: 10px;
   border-image: url(assets/IMG_8837.png) 12 fill round;

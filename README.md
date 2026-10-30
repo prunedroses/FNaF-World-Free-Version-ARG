@@ -1,7 +1,7 @@
 # FNaF World Free Version ARG
 > Check out [#FNaFWorldFreeVersion](https://x.com/hashtag/FNaFWorldFreeVersion) on Twitter!
 
-This project is a website dedicated to a friend of mine and the characters she makes.
+This project is an ARG dedicated to a friend of mine and the characters she makes.
 <br>To her, thanks for giving me the privilege to work on this. :)
 <br>I built this with primarily HTML and CSS, and some random widgets and JavaScript I found and scrapped together.
 <br>If there are any bugs, let me know and I'll try to patch them up. Just keep in mind that some things are intentional.

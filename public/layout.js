@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .insertAdjacentHTML("beforeend", footerEl);
 
     // Inserting sidebars:
-    const wrapperElement = document.querySelector("main"); // you might have to change this selector to something like .my-wrapper
+    const wrapperElement = document.querySelector("body"); // you might have to change this selector to something like .my-wrapper
     if (wrapperElement) {
       wrapperElement.insertAdjacentHTML("afterbegin", sidebarEl1);
       wrapperElement.insertAdjacentHTML("beforeend", sidebarEl2);

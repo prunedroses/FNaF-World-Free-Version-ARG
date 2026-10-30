@@ -1,17 +1,13 @@
 // initLayout() is called once the DOM (the HTML content of your website) has been loaded.
 document.addEventListener("DOMContentLoaded", function () {
   // The layout will be loaded on all pages that do NOT have the "no-layout" class in the <body> element.
-  if (!document.querySelector("#container").classList.contains("no-layout")) {
+  if (!document.body.classList.contains("no-layout")) {
     // Inserting your header and footer:
-    document
-      .querySelector("#container")
-      .insertAdjacentHTML("afterbegin", headerEl);
-    document
-      .querySelector("#container")
-      .insertAdjacentHTML("beforeend", footerEl);
+    document.body.insertAdjacentHTML("afterbegin", headerEl);
+    document.body.insertAdjacentHTML("beforeend", footerEl);
 
     // Inserting sidebars:
-    const wrapperElement = document.querySelector("body"); // you might have to change this selector to something like .my-wrapper
+    const wrapperElement = document.querySelector("main"); // you might have to change this selector to something like .my-wrapper
     if (wrapperElement) {
       wrapperElement.insertAdjacentHTML("afterbegin", sidebarEl1);
       wrapperElement.insertAdjacentHTML("beforeend", sidebarEl2);

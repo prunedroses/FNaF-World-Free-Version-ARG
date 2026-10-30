@@ -2,6 +2,8 @@ body {
   margin: auto;
   background-image: url(assets/chocoog4.gif);
   background-size: 87.4px 68.7px;
+}
+.container {
   border: 12px solid transparent;
   border-radius: 10px;
   border-image: url(assets/IMG_8837.png) 12 fill round;
@@ -14,8 +16,6 @@ body {
     "sidebar main"
     "footer footer"
     / 15% 1fr fit-content(20%);
-    align-items: center;
-    justify-items: center;
 }
 * {
   box-sizing: border-box;

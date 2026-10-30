@@ -1,5 +1,4 @@
 body {
-  justify-self: center;
   margin: auto;
   background-image: url(assets/chocoog4.gif);
   background-size: 87.4px 68.7px;
@@ -15,6 +14,8 @@ body {
     "sidebar main"
     "footer footer"
     / 15% 1fr fit-content(20%);
+    align-items: center;
+    justify-items: center;
 }
 * {
   box-sizing: border-box;

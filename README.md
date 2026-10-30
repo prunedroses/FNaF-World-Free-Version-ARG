@@ -6,5 +6,4 @@ To her, thanks for giving me the privilege to work on this. :)
 
 To access the site, go [here](https://funtimechicafan3274.neocities.org/)! Please note that it is VERY incompatible with mobile devices at the moment and is best viewed on a computer browser with Javascript enabled.
 
-https://files.catbox.moe/297qh6.jpg
-I'm on my phone and I don't know how to add pictures. This is the best I can give. Sorry
+<img width="1919" height="952" alt="image" src="https://github.com/user-attachments/assets/09480688-5c87-4b61-bc25-1caa655d2627" />

@@ -1,8 +1,6 @@
 body {
-  margin: auto;
-  place-items: center;
+  place-self: center;
   background-image: url(assets/chocoog4.gif);
-  background-color: #f7f2e9;
   background-size: 87.4px 68.7px;
   border: 12px solid transparent;
   border-radius: 10px;

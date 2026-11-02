@@ -151,12 +151,12 @@ postListHTML += "</ul>";
 
 //Generate the Recent Post List HTML, which can be shown on the home page (or wherever you want!)
 let recentPostsCutoff = 3; //Hey YOU! Change this number to set how many recent posts to show before cutting it off with a "more posts" link.
-let recentPostListHTML = "<h2>Recent Posts:</h2><ul>";
+let recentPostListHTML = "<h2>recent posts:</h2><ul>";
 let numberOfRecentPosts = Math.min( recentPostsCutoff, postsArray.length );
 for ( let i = 0; i < numberOfRecentPosts; i++ ) {
   recentPostListHTML += formatPostLink(i);
 }
-/*If you've written more posts than can fit in the Recent Posts List,
+/*If you've written more posts than can fit in the recent posts List,
   then we'll add a link to the archive so readers can find the rest of
   your wonderful posts and be filled with knowledge.*/
 if ( postsArray.length > recentPostsCutoff ) {
